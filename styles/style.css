@@ -651,17 +651,13 @@ footer{
         padding-left: 60px;
         gap: 50px;
     }
-    .input{
-        padding-top: 400px;
-        width: 850px;
-        height: 100px;
-        font-size: 100px;
+    #input_text{
         color: var(--dark-blue-300);
         font-family: var(--fuente-montserrat);
-        font-size: var(--tamaño-input);
-    }
-    .input::placeholder{
         font-size: 80px;
+    }
+    input::placeholder{
+        font-size: 40px;
     }
 
     .vector{
