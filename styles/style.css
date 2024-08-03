@@ -270,7 +270,7 @@ footer{
 /* Media queries */
 
 
-@media (min-width:787px) and (max-width: 964px){    
+@media (min-width:768px) and (max-width: 991px){    
     html, body{
         height: 110vh;
         width: 100%;
@@ -287,7 +287,7 @@ footer{
         flex-direction: column;
         align-items: start;
         margin-left: 0px;
-        margin-top: 75PX;
+        margin-top: 0PX;
         padding-left: 80px;
         gap: 300px;
     }
@@ -333,7 +333,7 @@ footer{
     }
 }
 
-@media(min-width: 426px) and (max-width: 786px){
+@media(min-width: 576px) and (max-width: 767px){
     html, body{
         height: 1180px;
         width: 140vh;
@@ -343,9 +343,9 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        height: 150vh;
+        height: 175vh;
         width: 80vh;
-        padding-left: 60px;
+        padding-left: 0px;
     }
     .seccion1{
         width: 100%;
@@ -354,13 +354,13 @@ footer{
         align-items: flex-start;
         margin-left: 0px;
         padding-left: 60px;
-        gap: 200px;
+        gap: 100px;
     }
     .input{
         padding-top: 40px;
     }
     .informacion_botones{
-        margin-top: 300px;
+        margin-top: 400px;
         width: 700px;
     }
     .botones{
@@ -416,7 +416,7 @@ footer{
     }
 }
 
-@media(min-width: 376px) and (max-width: 425px){
+@media(min-width: 376px) and (max-width: 575px){
     html, body{
         height: 230vh;
         width: 140vh;
@@ -428,7 +428,7 @@ footer{
         align-items: start;
         height: 200vh;
         width: 80vh;
-        padding-left: 100px;
+        padding-left: 10px;
     }
     .seccion1{
         width: 100%;
@@ -559,7 +559,7 @@ footer{
     }
     .botones{
         display: block;
-        width:100%;
+        width:83%;
     }
     .enc{
         font-size: 30px;
@@ -649,7 +649,7 @@ footer{
         gap: 50px;
     }
     .input{
-        padding-top: 400px;
+        padding-top: 75px;
         width: 850px;
         height: 100px;
         font-size: 500px;
@@ -674,7 +674,7 @@ footer{
     }
     .botones{
         display: block;
-        width:100%;
+        width:85%;
     }
     .enc{
         font-size: 30px;
@@ -724,7 +724,7 @@ footer{
         font-size: 30px;
     }
     footer{
-        padding-top: 45px;
+        padding-top: 0px;
     }
     .footer_texto{
         font-size: 30px;
@@ -734,3 +734,4 @@ footer{
         height: 50px;
     }
 }
+
